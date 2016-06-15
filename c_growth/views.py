@@ -16,3 +16,14 @@ def index(request):
     # We make use of the shortcut function to make our lives easier.
     # Note that the first parameter is the template we wish to use.
     return render(request, 'c_growth/index.html', context=context_dict)
+
+
+def about(request):
+
+    about_dict = {'aboutmessage':"Brews to more views!"}
+
+
+    # Return a rendered response to send to the client.
+    # We make use of the shortcut function to make our lives easier.
+    # Note that the first parameter is the template we wish to use.
+    return render(request, 'c_growth/about.html', context=about_dict)

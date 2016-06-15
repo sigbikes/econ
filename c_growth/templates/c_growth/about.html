@@ -1,0 +1,20 @@
+<!DOCTYPE HTML>
+{% load staticfiles %}
+<html>
+
+<head>
+  <title>About the Compound Growth Page</title>
+</head>
+
+<body>
+  <h3>This Page Brought To You By</h3>
+    <div>
+      Sig <br />
+    </div>
+  <div>
+      <img src="{% static "images/sig.jpg" %}" alt="Sig in Chile" height="25%" width="25%" />
+      <br /><strong>{{aboutmessage}}</strong> <br /><br />
+      <a href="/c_growth/index/">Back to the Index</a><br /><br />
+  </div>
+
+</html>
