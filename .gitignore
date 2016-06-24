@@ -5,3 +5,4 @@ config/api_keys.py
 *__pycache__
 #*.sqlite3
 *.gittest
+.spyderworkspace
