@@ -3,6 +3,11 @@ from c_growth.models import Run, Data
 
 # Register your models here.
 
+class DataAdmin(admin.ModelAdmin):
+    list_display = ['name','run','principle','rate','year','total']
 
-admin.site.register(Data)
-admin.site.register(Run)
+class RunAdmin(admin.ModelAdmin):
+    list_display = ['name','description','date']
+
+admin.site.register(Data, DataAdmin)
+admin.site.register(Run, RunAdmin)
