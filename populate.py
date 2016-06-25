@@ -26,7 +26,7 @@ def populate():
 
     time = [5, 10, 20]
 
-    comp = 12
+    comp = 1
 
     data_names = []    
     for r in rate:
